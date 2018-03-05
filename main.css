@@ -1,0 +1,79 @@
+p{
+	color:red;
+}
+
+strong,a{
+	color:blue;
+	text-decoration:none;
+}
+
+p.onepiece{
+	color:green;
+}
+
+/* Pseudo Selector*/
+
+a:hover{
+	color:green;
+}
+
+li{
+	display:inline;
+	height: 40px;
+}
+
+.pull-left{
+	float:left;
+}
+
+.pull-right{
+	float:right;
+	height: 50px;
+}
+
+.clear{
+	display: block;
+	clear: both;
+}
+/*
+div {
+	padding: 10px;
+	border: 1px solid #000;
+	background: #999; */
+/*	position: relative; */
+/*	top: -10px; */
+/*	bottom: -10px; */
+/*
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+}
+*/
+
+
+.relative{
+	padding: 10px;
+	border: 1px solid #000;
+	background: #999;
+	position: relative;
+}
+
+.absolute{
+	padding: 10px;
+	border: 1px solid #F00;
+	background: #FFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.absolute-right{
+	padding: 10px;
+	border: 1px solid #0F0;
+	background: #CCC;
+	
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}

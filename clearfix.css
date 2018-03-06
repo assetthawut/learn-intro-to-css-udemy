@@ -1,0 +1,17 @@
+.container {
+	background: #393;
+	/*
+	overflow: hidden;
+	height: 10px;
+	*/
+}
+
+.container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.box {
+	background: #939;
+	float: left;
+}
